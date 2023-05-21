@@ -18,6 +18,15 @@
 
 body { 
   background-color: var(--body-color);
+  background-image: url("/assets/images/menu/navbar-background.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+@media (max-width: 767px) {
+  header {
+    height: 180px;
+  }
 }
 
 h1 { 
@@ -25,14 +34,35 @@ h1 {
   color: white;
 }
 
-header,
-main,
-footer{
-  width: 100vw;
-  height: 100vh;
-  background: #6C7A89;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} 
+/* Estilos para dispositivos com largura máxima de 767px */
+@media (max-width: 767px) {
+  body{
+    background-position-y: -200px;
+  }
+}
+
+/* Estilos para dispositivos com largura mínima de 768px */
+@media (min-width: 768px) {
+  /* Estilos para tablets ou telas de tamanho médio */
+}
+
+/* Estilos para dispositivos com largura mínima de 992px */
+@media (min-width: 992px) {
+  /* Estilos para desktops ou telas largas */
+}
+
+/* Estilos para dispositivos com largura mínima de 1200px */
+@media (min-width: 1200px) {
+  /* Estilos para telas maiores ou widescreen */
+}
+
+/* Estilos para telas com resolução de 2500 pixels ou superior */
+@media (min-resolution: 2500dpi) {
+  /* Estilos para telas com alta resolução */
+}
+
+/* Estilos para telas 4K (3840x2160) ou superior */
+@media (min-resolution: 4k) {
+  /* Estilos para telas 4K */
+}
+
