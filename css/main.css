@@ -1,3 +1,10 @@
+/* 
+.color2 { #f3a36b };
+.color3 { #cd5b51 };
+.color4 { #554865 };
+
+.menu { #352630 }; */
+
 *{
   margin: 0;
   border: 0;
@@ -13,20 +20,19 @@ body {
   background-color: var(--body-color);
 }
 
-/* 
-.color2 { #f3a36b };
-.color3 { #cd5b51 };
-.color4 { #554865 };
-
-.menu { #352630 }; */
-
-/* font-family: 'Inter', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Salsa', cursive; */
-
-
 h1 { 
   font-family: Salsa, cursive;
   color: white;
 }
+
+header,
+main,
+footer{
+  width: 100vw;
+  height: 100vh;
+  background: #6C7A89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
