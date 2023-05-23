@@ -15,12 +15,38 @@
   --bs-white: #FFFFFF
   /* --know-more: #e9dfcc; */
 }
+
+body { 
+  background-color: #FFE7E9!important;
+}
+
+.calda {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.calda img {
+  width: 100%;
+  height: 100%;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   text-align: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 999;
 }
 
 header .logo {
@@ -32,16 +58,45 @@ header .whatsapp {
 }
 
 header nav {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+
   flex: 1;
   width: 500;
   align-items: center;
 }
 
+.carousel.slide{
+  margin-top: 14vh;
+}
+
+.carousel-caption.d-none.d-md-block h1 {
+  text-align: left;
+  margin-bottom: 160px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+h1, .carousel-caption.d-none.d-md-block { 
+  font-family: 'Salsa', cursive;
+  color: #FFFFFF;
+}
+
+h2, h3, h4, p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800!important;
+}
+
 .btn.btn-primary {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   background-color: #cd5b51;
   border-color: #cd5b51;
   color: white;
-  padding: 10px;
+  padding: 6px;
+  margin-bottom: 15px;
 }
 
 .btn.btn-primary:hover {
@@ -63,29 +118,39 @@ ul{
 
 }
 
-body { 
-  background-color: var(--body-color);
-  background-image: url("/assets/images/menu/navbar-background.png");
-  background-size: contain;
-  background-repeat: repeat-x;
-
+footer{
+  background-color: #FFFFFF;
+  text-align: center;
 }
 
-h1 { 
-  font-family: Salsa, cursive;
-  color: white;
+.final{
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
 }
 
+.copywrite{
+  font-family: 'Oswald', sans-serif;
+  justify-content: right;
+}
 
 @media (min-width:320px)  { 
   .logo img{
     width: 130px;
+  }
+  .carousel.slide{
+    margin-top: 8vh;
   }
 }
 
 @media (min-width:481px)  { 
   .logo img{
     width: 130px;
+  }
+  .carousel.slide{
+    margin-top: 9vh;
   }
 }
 
@@ -97,25 +162,31 @@ h1 {
 
 @media (min-width: 768px) {
   .logo img{
-    width: 200px;
+    width: 180px;
+  }
+  .carousel.slide{
+    margin-top: 12vh;
   }
 }
 
-@media (min-width: 961px)  { 
-  body{
-    background-position-y: -30px;
+@media (min-width: 961px)  {
+.calda img{
+    margin-top: -30px;
+  }
+  .carousel.slide{
+    margin-top: 15vh;
   }
 }
 
 @media (min-width: 992px) {
-  body{
-    background-position-y: -25px;
+  .calda img{
+    margin-top: -25px;
   }
 }
 
-@media (min-width:1025px) { 
-  body{
-    background-position-y: -35px;
+@media (min-width:1025px) {
+.calda img{
+    margin-top: -35px;
   }
 }
 
@@ -126,19 +197,19 @@ h1 {
 }
 
 @media (min-width: 1440px) {
-  body {
-    background-position-y: -90px;
+  .calda img{
+    margin-top: -90px;
   }
 }
 
 @media (min-width: 1680px) {
-  body {
-    background-position-y: -6%;
+  .calda img{
+    margin-top: -6%;
   }
 }
 
 @media (min-width: 1900px) {
-  body {
-    background-position-y: -7%;
+  .calda img{
+    margin-top: -10%;
   }
 }
