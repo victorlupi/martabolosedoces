@@ -1,6 +1,5 @@
 /* 
 .color2 { #f3a36b };
-.color3 { #cd5b51 };
 .color4 { #554865 };
 
 .menu { #352630 }; */
@@ -13,7 +12,55 @@
 
 :root{
   --body-color: #FFE7E9;
+  --bs-white: #FFFFFF
   /* --know-more: #e9dfcc; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+header .logo {
+  flex: 1;
+}
+
+header .whatsapp {
+  flex: 1;
+}
+
+header nav {
+  flex: 1;
+  width: 500;
+  align-items: center;
+}
+
+.btn.btn-primary {
+  background-color: #cd5b51;
+  border-color: #cd5b51;
+  color: white;
+  padding: 10px;
+}
+
+.btn.btn-primary:hover {
+  background-color: #d33729;
+  border-color: #d33729;
+  color: white;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0 20px;
+
 }
 
 body { 
@@ -21,12 +68,7 @@ body {
   background-image: url("/assets/images/menu/navbar-background.png");
   background-size: contain;
   background-repeat: repeat-x;
-}
 
-@media (max-width: 767px) {
-  header {
-    height: 180px;
-  }
 }
 
 h1 { 
@@ -34,35 +76,69 @@ h1 {
   color: white;
 }
 
-/* Estilos para dispositivos com largura máxima de 767px */
-@media (max-width: 767px) {
-  body{
-    background-position-y: -200px;
+
+@media (min-width:320px)  { 
+  .logo img{
+    width: 130px;
   }
 }
 
-/* Estilos para dispositivos com largura mínima de 768px */
+@media (min-width:481px)  { 
+  .logo img{
+    width: 130px;
+  }
+}
+
+@media (min-width:641px)  { 
+  .logo img{
+    width: 150px;
+  }
+}
+
 @media (min-width: 768px) {
-  /* Estilos para tablets ou telas de tamanho médio */
+  .logo img{
+    width: 200px;
+  }
 }
 
-/* Estilos para dispositivos com largura mínima de 992px */
+@media (min-width: 961px)  { 
+  body{
+    background-position-y: -30px;
+  }
+}
+
 @media (min-width: 992px) {
-  /* Estilos para desktops ou telas largas */
+  body{
+    background-position-y: -25px;
+  }
 }
 
-/* Estilos para dispositivos com largura mínima de 1200px */
+@media (min-width:1025px) { 
+  body{
+    background-position-y: -35px;
+  }
+}
+
 @media (min-width: 1200px) {
-  /* Estilos para telas maiores ou widescreen */
+  body{
+    background-position-y: -60px;
+  }
 }
 
-/* Estilos para telas com resolução de 2500 pixels ou superior */
-@media (min-resolution: 2500dpi) {
-  /* Estilos para telas com alta resolução */
+@media (min-width: 1440px) {
+  body {
+    background-position-y: -90px;
+  }
 }
 
-/* Estilos para telas 4K (3840x2160) ou superior */
-@media (min-resolution: 4k) {
-  /* Estilos para telas 4K */
+@media (min-width: 1680px) {
+  body {
+    background-position-y: -6%;
+  }
 }
 
+@media (min-width: 1900px) {
+  body {
+    background-position-y: -7%;
+  }
+}
