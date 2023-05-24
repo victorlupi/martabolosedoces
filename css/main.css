@@ -16,6 +16,10 @@
   /* --know-more: #e9dfcc; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body { 
   background-color: #FFE7E9!important;
 }
@@ -67,6 +71,49 @@ header nav {
   align-items: center;
 }
 
+.menu-mobile {
+  display: none;
+}
+
+.menu-desktop {
+  display: block;
+}
+
+nav {
+  display: contents;
+}
+
+.navbar>.container-xxl {
+  justify-content: right!important;
+}
+
+ul.nav.nav-underline {
+  padding: 0;
+}
+
+a.nav-link {
+  color: #352630;
+}
+
+a.nav-link.active {
+  color: #352630;
+  border-bottom-color: #F3A36B!important;
+}
+
+a.nav-link:hover {
+  color: #352630!important;
+  border-bottom-color: #F3A36B!important;
+}
+
+.nav-underline{
+  border-bottom: #F3A36B;
+  --bs-nav-underline-link-active-color: #cd5b51!important;
+}
+
+a.nav-link:hover {
+  color: #352630;
+}
+
 .carousel.slide{
   margin-top: 14vh;
 }
@@ -104,7 +151,7 @@ h2, h3, h4, p {
   border-color: #cd5b51;
   color: white;
   padding: 6px;
-  margin-bottom: 15px;
+  font-size: 14px;
 }
 
 .btn.btn-primary:hover {
@@ -149,8 +196,26 @@ ul{
   justify-content: space-around;
   gap: 50px;
 }
+
 .card{
   width: 300px;
+  border: none!important;
+  overflow: hidden;
+  height: 450px!important;
+}
+
+.card a{
+  height: 100%;
+}
+
+.zoom-image {
+  overflow: auto;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2);
 }
 
 .card-title{
@@ -159,7 +224,6 @@ ul{
   font-weight: 700;
   margin: 0 auto;
 }
-
 
 .card-img-overlay-notop {
   position: absolute;
@@ -219,11 +283,31 @@ footer .logo{
 
 @media (min-width:320px)  { 
   .logo img{
-    width: 130px;
+    width: 100px;
   }
   .carousel.slide{
     margin-top: 8vh;
   }
+  .card-title{
+    font-size: 22px;
+  }
+  .cards {
+    display: flex;
+    padding: 20px 20px 0 20px;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .carousel-caption.d-none.d-md-block h1 {
+    text-align: left;
+    margin-bottom: 160px;
+  }
+  .calda img {
+    width: 100%;
+    height: 132px;
+  }
+
 }
 
 @media (min-width:481px)  { 
@@ -239,6 +323,15 @@ footer .logo{
   .logo img{
     width: 150px;
   }
+  .carousel-caption.d-none.d-md-block h1 {
+    text-align: left;
+    margin-bottom: 160px;
+}
+  .calda img {
+    width: 100%;
+    height: 200px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -247,6 +340,22 @@ footer .logo{
   }
   .carousel.slide{
     margin-top: 12vh;
+  }
+
+  .card-title{
+    font-size: 28px;
+  }
+  .cards {
+    display: flex;
+    padding: 20px 20px 0 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .calda img {
+    width: 100%;
+    height: 100%;
   }
 }
 
