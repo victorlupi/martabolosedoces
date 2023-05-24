@@ -34,19 +34,20 @@ body {
 }
 
 header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   text-align: center;
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
   box-sizing: border-box;
   z-index: 999;
+  flex-direction: row;
 }
 
 header .logo {
@@ -75,8 +76,15 @@ header nav {
   margin-bottom: 160px;
 }
 
+.carousel-indicators{
+  visibility: hidden;
+}
+
 section {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center
 }
 
 h1, .carousel-caption.d-none.d-md-block { 
@@ -105,6 +113,21 @@ h2, h3, h4, p {
   color: white;
 }
 
+
+.btn.btn-second{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px;
+  background-color: #e9dfcc;
+  color: #352630;
+}
+
+.btn.btn-second:hover{
+  background-color: #c5bdae;
+  color: #352630;
+}
+
 ul{
   display: flex;
   flex-direction: row;
@@ -118,22 +141,80 @@ ul{
 
 }
 
+.cards {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+.card{
+  width: 300px;
+}
+
+.card-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+
+.card-img-overlay-notop {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+  margin: 0 auto;
+}
+
+.card img{
+  opacity: 0.5;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map{
+  text-align: center;
+}
+
+.map iframe{
+  padding: 20px 0 0 0;
+}
+
 footer{
   background-color: #FFFFFF;
   text-align: center;
+}
+
+footer .logo{
+  padding-top: 10px;
+}
+
+.social-media{
+  display: flex;
+  gap: 30px;
+  padding: 10px 0 20px 0;
+  justify-content: center;
 }
 
 .final{
   display: flex;
   text-align: center;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
+
+  font-size: 12px;
 }
 
-.copywrite{
+.copywrite, span{
   font-family: 'Oswald', sans-serif;
   justify-content: right;
+  padding-bottom: 5px;
 }
 
 @media (min-width:320px)  { 
