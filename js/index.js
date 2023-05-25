@@ -15,9 +15,3 @@ function toggleMenu() {
 
 window.addEventListener('resize', toggleMenu);
 toggleMenu();
-
-// Adicione um event listener passivo para o evento de rolagem (scroll)
-elemento.addEventListener('scroll', meuListener, { passive: true });
-
-// Adicione um event listener passivo para o evento de toque (touch)
-elemento.addEventListener('touchstart', meuListener, { passive: true });
