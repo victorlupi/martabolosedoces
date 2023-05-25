@@ -54,6 +54,11 @@ header {
   flex-direction: row;
 }
 
+img{
+  width: 100%;
+  height: 100%;
+}
+
 header .logo {
   flex: 1;
 }
@@ -116,6 +121,22 @@ a.nav-link:hover {
 
 .carousel.slide{
   margin-top: 14vh;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-button {
+  animation: pulse 2s infinite;
 }
 
 .carousel-caption.d-none.d-md-block h1 {
@@ -197,11 +218,11 @@ ul{
   gap: 50px;
 }
 
-.card{
-  width: 300px;
+.card {
+  width: 250px;
   border: none!important;
   overflow: hidden;
-  height: 450px!important;
+  height: 350px!important;
 }
 
 .card a{
@@ -289,7 +310,7 @@ footer .logo{
     margin-top: 8vh;
   }
   .card-title{
-    font-size: 22px;
+    font-size: 32px;
   }
   .cards {
     display: flex;
@@ -306,6 +327,12 @@ footer .logo{
   .calda img {
     width: 100%;
     height: 132px;
+  }
+  .whatsapp img {
+    width: 20px;
+  }
+  .whatsapp .btn-primary {
+    font-size: 12px;
   }
 
 }
