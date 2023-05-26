@@ -219,10 +219,10 @@ ul{
 }
 
 .card {
-  width: 250px;
+  width: 340px;
   border: none!important;
   overflow: hidden;
-  height: 350px!important;
+  height: 470px!important;
 }
 
 .card a{
