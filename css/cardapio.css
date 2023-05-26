@@ -168,6 +168,23 @@ ul{
 
 }
 
+.cardapio img{
+  opacity: 0.3;
+  position: block;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cardapio_descricao h2{
+  font-weight: 600!important;
+  font-size: 42px;
+}
+
+.cardapio_descricao p {
+  font-weight: 400!important;
+  font-size: 20px;
+}
+
 .cards {
   display: flex;
   padding: 20px 20px 0 20px;
@@ -216,9 +233,11 @@ ul{
 }
 
 .card img{
-  opacity: 0.5;
+  opacity: calc(4*0.1);
+  color: red;
   height: 100%;
   object-fit: cover;
+
 }
 
 .map{
