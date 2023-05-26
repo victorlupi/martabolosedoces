@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "title": "Abacaxi com Chantilly",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Abacaxi com Marshmallow",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Ameixa com Doce de Leite",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Mouse de Limão",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Mouse de Maracujá",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Floresta Branca",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolos"
+    },
+    {
+      "title": "Doce de Morango",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/doces",
+      "description": "doces"
+    },
+    {
+      "title": "Torta de Chocolate",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/doces",
+      "description": "doces"
+    },
+    {
+      "title": "Pudim de Caramelo",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/doces",
+      "description": "doces"
+    }
+  ]
+}
