@@ -13,5 +13,11 @@ function toggleMenu() {
   }
 }
 
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+
+const currentYearElement = document.getElementById('current-year');
+currentYearElement.textContent = currentYear;
+
 window.addEventListener('resize', toggleMenu);
 toggleMenu();
