@@ -4,55 +4,79 @@
       "title": "Abacaxi com Chantilly",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
       "title": "Abacaxi com Marshmallow",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
       "title": "Ameixa com Doce de Leite",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
       "title": "Mouse de Limão",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
       "title": "Mouse de Maracujá",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
       "title": "Floresta Branca",
       "image": "assets/images/categories/bolos.webp",
       "link": "/bolos",
-      "description": "bolos"
+      "description": "bolosBrancos"
     },
     {
-      "title": "Doce de Morango",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/doces",
-      "description": "doces"
+      "title": "bolos de Morango",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolosMorango"
     },
     {
-      "title": "Torta de Chocolate",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/doces",
-      "description": "doces"
+      "title": "Bolo de Chocolate",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolosChocolate"
     },
     {
-      "title": "Pudim de Caramelo",
+      "title": "Bolo de Nozes",
+      "image": "assets/images/categories/bolos.webp",
+      "link": "/bolos",
+      "description": "bolosNozes"
+    },
+    {
+      "title": "Salgado Simples",
+      "image": "assets/images/categories/salgados.webp",
+      "link": "/salgados",
+      "description": "salgadosSimples"
+    },
+    {
+      "title": "Salgado Especial",
+      "image": "assets/images/categories/salgados.webp",
+      "link": "/salgados",
+      "description": "salgadosEspeciais"
+    },
+    {
+      "title": "Doce Simples",
       "image": "assets/images/categories/doces.webp",
       "link": "/doces",
-      "description": "doces"
+      "description": "docesSimples"
+    },
+    {
+      "title": "Doce Especial",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/doces",
+      "description": "docesEspeciais"
     }
   ]
 }

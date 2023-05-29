@@ -132,6 +132,11 @@ h3{
   font-size: 48px!important;
 }
 
+.parallax-content h3{
+  text-shadow: 3px 3px 10px black;
+}
+
+
 .btn.btn-primary {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
