@@ -250,6 +250,7 @@ ul{
   font-size: 28px;
   font-weight: 700;
   margin: 0 auto;
+  text-shadow: 1px 1px 5px black;
 }
 
 .contatos {
@@ -291,12 +292,9 @@ ul{
   margin: 0 auto;
 }
 
-.card img{
-  opacity: calc(4*0.1);
-  color: red;
+.card img {
   height: 100%;
   object-fit: cover;
-
 }
 
 .parallax-container-bolo-branco{

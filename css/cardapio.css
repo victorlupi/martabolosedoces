@@ -187,6 +187,10 @@ ul{
   color: #cd5b51;
 }
 
+.frase h3 {
+  font-size: 28px!important;
+}
+
 .cardapio img{
   opacity: 0.3;
   position: block;
@@ -246,6 +250,7 @@ ul{
   font-size: 28px;
   font-weight: 700;
   margin: 0 auto;
+  text-shadow: 1px 1px 5px black;
 }
 
 .card-img-overlay-notop {
@@ -258,12 +263,9 @@ ul{
   margin: 0 auto;
 }
 
-.card img{
-  opacity: calc(4*0.1);
-  color: red;
+.card img {
   height: 100%;
   object-fit: cover;
-
 }
 
 .parallax-container-bolo-branco{

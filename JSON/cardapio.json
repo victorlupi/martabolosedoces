@@ -1,56 +1,104 @@
 {
   "items": [
     {
-      "title": "Abacaxi com Chantilly",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Ameixa com doce de leite",
+      "image": "/assets/images/categories/bolo/bolos brancos/Ameixa com doce de leite.jpeg",
       "description": "bolosBrancos"
     },
     {
-      "title": "Abacaxi com Marshmallow",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Leite Ninho com Ouro Branco e morango",
+      "image": "/assets/images/categories/bolo/bolos brancos/Leite ninho com ouro branco e morango.jpeg",
       "description": "bolosBrancos"
     },
     {
-      "title": "Ameixa com Doce de Leite",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Leite Ninho com Ouro Branco",
+      "image": "/assets/images/categories/bolo/bolos brancos/Leite ninho com ouro branco.jpeg",
       "description": "bolosBrancos"
     },
     {
-      "title": "Mouse de Limão",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Leite Ninho",
+      "image": "/assets/images/categories/bolo/bolos brancos/Leite ninho.jpeg",
       "description": "bolosBrancos"
     },
     {
-      "title": "Mouse de Maracujá",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Torta de Frutas",
+      "image": "/assets/images/categories/bolo/bolos brancos/Torta de Frutas.jpeg",
       "description": "bolosBrancos"
     },
     {
-      "title": "Floresta Branca",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
-      "description": "bolosBrancos"
-    },
-    {
-      "title": "bolos de Morango",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Kit Kat com Morango",
+      "image": "/assets/images/categories/bolo/bolos de morango/Kit Kat com Morango.jpeg",
       "description": "bolosMorango"
     },
     {
-      "title": "Bolo de Chocolate",
-      "image": "assets/images/categories/bolos.webp",
-      "link": "/bolos",
+      "title": "Leite ninho com Morango",
+      "image": "/assets/images/categories/bolo/bolos de morango/Leite ninho com Morango.jpeg",
+      "description": "bolosMorango"
+    },
+    {
+      "title": "Mesclado",
+      "image": "/assets/images/categories/bolo/bolos de morango/Mesclado.jpeg",
+      "description": "bolosMorango"
+    },
+    {
+      "title": "Torta folhada com Morango",
+      "image": "/assets/images/categories/bolo/bolos de morango/Torta folhada com Morango.jpeg",
+      "description": "bolosMorango"
+    },
+
+
+    
+    {
+      "title": "Chocolate com Morango",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Chocolate com Morango.jpeg",
       "description": "bolosChocolate"
     },
     {
-      "title": "Bolo de Nozes",
-      "image": "assets/images/categories/bolos.webp",
+      "title": "Crocante com chocolate",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Crocante com chocolate.jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Crocante",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Crocante.jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Kit Kat",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Kit Kat.jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Negresgo",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Negresgo.jpg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Nutella com Leite ninho",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Nutella com Leite ninho.jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Prestígio",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Prestígio (1).jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Prestígio 02",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Prestígio02.jpeg",
+      "description": "bolosChocolate"
+    },
+    {
+      "title": "Sonho de Valsa",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Sonho de Valsa.jpeg",
+      "description": "bolosChocolate"
+    },
+
+
+
+    {
+      "title": "Nozes com doce de leite e creme",
+      "image": "assets/images/categories/bolo/bolos de nozes/Nozes com doce de leite e creme.jpeg",
       "link": "/bolos",
       "description": "bolosNozes"
     },
