@@ -278,9 +278,27 @@
       "description": "novidades"
     },
     {
-      "title": "Mais vendidos",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/novidades",
+      "vendidos": "mais-vendidos",
+      "title": "Homem Aranha",
+      "image": "assets/images/categories/bolo/bolos especiais/Homem Aranha.jpeg",
+      "description": "mais-vendidos"
+    },
+    {
+      "vendidos": "mais-vendidos",
+      "title": "Negresgo",
+      "image": "assets/images/categories/bolo/bolos de chocolate/Negresgo.jpg",
+      "description": "mais-vendidos"
+    },
+    {
+      "vendidos": "mais-vendidos",
+      "title": "Nozes com Morango",
+      "image": "assets/images/categories/bolo/bolos de nozes/Nozes com morango.jpeg",
+      "description": "mais-vendidos"
+    },
+    {
+      "vendidos": "mais-vendidos",
+      "title": "Coxinha de Frango - Bolinha de Queijo - Risoles",
+      "image": "assets/images/categories/salgado/simples/Coxinha de Frango - Bolinha de Queijo - Risoles.jpeg",
       "description": "mais-vendidos"
     }
   ]
