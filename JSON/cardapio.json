@@ -272,9 +272,23 @@
       "description": "salgadosEspeciais"
     },
     {
-      "title": "Novidades",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/novidades",
+      "title": "Mini Pizzas",
+      "image": "assets/images/categories/salgado/especiais/Mini Pizzas.jpg",
+      "description": "novidades"
+    },
+    {
+      "title": "Baguete",
+      "image": "assets/images/categories/salgado/simples/Baguete.jpg",
+      "description": "novidades"
+    },
+    {
+      "title": "Mulher Maravilha",
+      "image": "assets/images/categories/bolo/bolos especiais/Mulher maravilha.jpeg",
+      "description": "novidades"
+    },
+    {
+      "title": "Enfeite cerveja",
+      "image": "assets/images/categories/bolo/bolos especiais/Enfeite cerveja.jpg",
       "description": "novidades"
     },
     {
