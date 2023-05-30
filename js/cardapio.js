@@ -5,6 +5,7 @@ fetch('JSON/cardapio.json')
     const bolosMorango = document.getElementById('bolos-morango');
     const bolosChocolate = document.getElementById('bolos-chocolate');
     const bolosNozes = document.getElementById('bolos-nozes');
+    const bolosEspeciais = document.getElementById('bolos-especial');
     const salgadosSimples = document.getElementById('salgados-simples');
     const salgadosEspeciais = document.getElementById('salgados-especiais');
     const docesSimples = document.getElementById('doces-simples');
@@ -36,8 +37,8 @@ fetch('JSON/cardapio.json')
       title.classList.add('card-title');
       title.innerHTML = item.title;
       
-      const whatsappLink = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(item.title);
-      item.link = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(item.title);
+      const whatsappLink = 'https://api.whatsapp.com/send/?phone=5517991937801&text=Queria saber mais: ' + encodeURIComponent(item.title);
+      item.link = 'https://api.whatsapp.com/send/?phone=5517991937801&text=Queria saber mais: ' + encodeURIComponent(item.title);
 
       const description = document.createElement('p');
 
@@ -64,6 +65,8 @@ fetch('JSON/cardapio.json')
         bolosChocolate.appendChild(itemDiv);
       } else if (item.description === 'bolosNozes') {
         bolosNozes.appendChild(itemDiv);
+      } else if (item.description === 'bolosEspeciais') {
+        bolosEspeciais.appendChild(itemDiv);
       } else if (item.description === 'salgadosSimples') {
         salgadosSimples.appendChild(itemDiv);
       } else if (item.description === 'salgadosEspeciais') {

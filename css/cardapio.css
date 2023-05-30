@@ -295,6 +295,15 @@ ul{
   background-size: cover;
 }
 
+.parallax-container-bolos-especial{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/bolo-especial.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax-container-bolo-nozes{
   height: 450px; 
   background-image: url('/assets/images/cardapio/bolo-nozes.webp'); 

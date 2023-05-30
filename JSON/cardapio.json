@@ -45,8 +45,6 @@
       "image": "/assets/images/categories/bolo/bolos de morango/Torta folhada com Morango.jpeg",
       "description": "bolosMorango"
     },
-
-
     
     {
       "title": "Chocolate com Morango",
@@ -93,38 +91,185 @@
       "image": "assets/images/categories/bolo/bolos de chocolate/Sonho de Valsa.jpeg",
       "description": "bolosChocolate"
     },
-
-
-
     {
       "title": "Nozes com doce de leite e creme",
       "image": "assets/images/categories/bolo/bolos de nozes/Nozes com doce de leite e creme.jpeg",
-      "link": "/bolos",
       "description": "bolosNozes"
     },
     {
-      "title": "Salgado Simples",
-      "image": "assets/images/categories/salgados.webp",
-      "link": "/salgados",
-      "description": "salgadosSimples"
+      "title": "Nozes com Morango",
+      "image": "assets/images/categories/bolo/bolos de nozes/Nozes com morango.jpeg",
+      "description": "bolosNozes"
     },
     {
-      "title": "Salgado Especial",
-      "image": "assets/images/categories/salgados.webp",
-      "link": "/salgados",
-      "description": "salgadosEspeciais"
+      "title": "Aniversário",
+      "image": "assets/images/categories/bolo/bolos especiais/Aniversário 2.jpeg",
+      "description": "bolosEspeciais"
     },
     {
-      "title": "Doce Simples",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/doces",
+      "title": "Aniversário personalizado",
+      "image": "assets/images/categories/bolo/bolos especiais/Aniversário personalizado.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Aniversário temático",
+      "image": "assets/images/categories/bolo/bolos especiais/Aniversário temático.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Aniversário.jpeg",
+      "image": "assets/images/categories/bolo/bolos especiais/Aniversário.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Bolo Rosa",
+      "image": "assets/images/categories/bolo/bolos especiais/Bolo rosa.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Boteco",
+      "image": "assets/images/categories/bolo/bolos especiais/Boteco.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Cerveja",
+      "image": "assets/images/categories/bolo/bolos especiais/Cerveja 2.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Coruja",
+      "image": "assets/images/categories/bolo/bolos especiais/Coruja.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Criança LOL",
+      "image": "assets/images/categories/bolo/bolos especiais/Criança LOL.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Desenho Pepa Pig",
+      "image": "assets/images/categories/bolo/bolos especiais/Desenho Pepa Pig.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Enfeitado com rosas",
+      "image": "assets/images/categories/bolo/bolos especiais/Enfeitado com rosas.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Enfeite cerveja 2",
+      "image": "assets/images/categories/bolo/bolos especiais/Enfeite cerveja 2.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Enfeite cerveja",
+      "image": "assets/images/categories/bolo/bolos especiais/Enfeite cerveja.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Enfeite Girassol",
+      "image": "assets/images/categories/bolo/bolos especiais/Enfeite Girassol.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Homem Aranha",
+      "image": "assets/images/categories/bolo/bolos especiais/Homem Aranha.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Mulher Maravilha",
+      "image": "assets/images/categories/bolo/bolos especiais/Mulher maravilha.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Patrulha Canina",
+      "image": "assets/images/categories/bolo/bolos especiais/Patrulha Canina.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Personagem Minions",
+      "image": "assets/images/categories/bolo/bolos especiais/Personagem Minions.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Personalizado 2",
+      "image": "assets/images/categories/bolo/bolos especiais/Personalizado 2.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Personalizado",
+      "image": "assets/images/categories/bolo/bolos especiais/Personalizado.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Salgado",
+      "image": "assets/images/categories/bolo/bolos especiais/Salgado.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Sonic",
+      "image": "assets/images/categories/bolo/bolos especiais/Sonic.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Temático jogos",
+      "image": "assets/images/categories/bolo/bolos especiais/Temático jogos.jpeg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Temático para meninas",
+      "image": "assets/images/categories/bolo/bolos especiais/Temático para meninas.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Unicórnio",
+      "image": "assets/images/categories/bolo/bolos especiais/Unicórnio.jpg",
+      "description": "bolosEspeciais"
+    },
+    {
+      "title": "Beijinho - Chocobol - Beijinho Rosa",
+      "image": "assets/images/categories/doce/simples/Beijinho - Chocobol - Beijinho Rosa.jpeg",
       "description": "docesSimples"
     },
     {
-      "title": "Doce Especial",
-      "image": "assets/images/categories/doces.webp",
-      "link": "/doces",
+      "title": "Brigadeiros.jpeg",
+      "image": "assets/images/categories/doce/simples/Brigadeiros.jpeg",
+      "description": "docesSimples"
+    },
+    {
+      "title": "Doces Especiais",
+      "image": "assets/images/categories/doce/especiais/Doces Especiais 2.jpeg",
       "description": "docesEspeciais"
+    },
+    {
+      "title": "Doces Especiais",
+      "image": "assets/images/categories/doce/especiais/Doces Especiais.jpeg",
+      "description": "docesEspeciais"
+    },
+    {
+      "title": "Baguete - Salame, Lombo, Frango, Ricota",
+      "image": "assets/images/categories/salgado/simples/Baguete - Salame, Lombo, Frango, Ricota .jpg",
+      "description": "salgadosSimples"
+    },
+    {
+      "title": "Baguete",
+      "image": "assets/images/categories/salgado/simples/Baguete.jpg",
+      "description": "salgadosSimples"
+    },
+    {
+      "title": "Coxinha de Frango - Bolinha de Queijo - Risoles",
+      "image": "assets/images/categories/salgado/simples/Coxinha de Frango - Bolinha de Queijo - Risoles.jpeg",
+      "description": "salgadosSimples"
+    },
+    {
+      "title": "Folhados",
+      "image": "assets/images/categories/salgado/especiais/Folhados.jpeg",
+      "description": "salgadosEspeciais"
+    },
+    {
+      "title": "Mini Pizzas",
+      "image": "assets/images/categories/salgado/especiais/Mini Pizzas.jpg",
+      "description": "salgadosEspeciais"
     },
     {
       "title": "Novidades",
