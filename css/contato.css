@@ -119,10 +119,27 @@ section {
   justify-content: center
 }
 
+section h3{
+  font-size: 40px;
+}
+
+h3.mais-vendidos {
+  font-size: 32px!important;
+}
+
 h2, h3, h4, p {
   font-family: 'Poppins', sans-serif;
   font-weight: 800!important;
 }
+
+h3{
+  font-size: 48px!important;
+}
+
+.parallax-content h3{
+  text-shadow: 3px 3px 10px black;
+}
+
 
 .btn.btn-primary {
   font-family: 'Inter', sans-serif;
@@ -168,6 +185,29 @@ ul{
 
 }
 
+.frase{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #cd5b51;
+}
+
+.cardapio img{
+  opacity: 0.3;
+  position: block;
+  height: 400px;
+  object-fit: cover;
+}
+
+.cardapio_descricao h2{
+  font-weight: 600!important;
+  font-size: 42px;
+}
+
+.cardapio_descricao p {
+  font-weight: 400!important;
+  font-size: 20px;
+}
+
 .cards {
   display: flex;
   padding: 20px 20px 0 20px;
@@ -178,10 +218,17 @@ ul{
 }
 
 .card {
-  width: 250px;
+  width: 100%;
   border: none!important;
   overflow: hidden;
-  height: 350px!important;
+  height: 364px!important;
+  margin-bottom: 20px
+  
+}
+.row{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card a{
@@ -205,6 +252,35 @@ ul{
   margin: 0 auto;
 }
 
+.contatos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.title-contato{
+  font-family: 'Salsa', cursive;
+  font-weight: 600;
+  font-size: 32px!important;
+  text-align: center;
+}
+
+.fale-conosco img {
+  width: 40px;
+  margin: -40px;
+}
+.endereco{
+  text-align: left;
+}
+
+.endereco p, .fale-conosco p{
+  font-size: 18px!important;
+  font-weight: 400!important;
+  text-align: left;
+}
+
+
 .card-img-overlay-notop {
   position: absolute;
   right: 0;
@@ -216,9 +292,92 @@ ul{
 }
 
 .card img{
-  opacity: 0.5;
+  opacity: calc(4*0.1);
+  color: red;
   height: 100%;
   object-fit: cover;
+
+}
+
+.parallax-container-bolo-branco{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/bolo-branco.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-bolo-de-morango{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/bolo-de-morango.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-bolo-chocolate{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/bolo-chocolate.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-bolo-nozes{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/bolo-nozes.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-salgado-simples{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/salgado-simples.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-salgado-especial{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/salgado-especial.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-doce-simples{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/doce-simples.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-container-doce-especial{
+  height: 450px; 
+  background-image: url('/assets/images/cardapio/doce-especial.webp'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
 }
 
 .map{
@@ -267,7 +426,7 @@ footer .logo{
   }
 
   .card-title{
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .cards {
@@ -279,6 +438,13 @@ footer .logo{
     align-items: center;
   }
 
+  .card {
+    width: 250px;
+    border: none!important;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
   .whatsapp img {
     width: 20px;
   }
@@ -289,13 +455,27 @@ footer .logo{
 
 }
 
-@media (min-width:481px)  { 
+@media (min-width: 481px)  { 
   .logo img{
     width: 130px;
   }
 }
 
-@media (min-width:641px)  { 
+@media (min-width: 575px)  { 
+  .logo img{
+    width: 130px;
+  }
+  .card {
+    width: 100%;
+    border: none!important;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media (min-width: 641px)  { 
   .logo img{
     width: 150px;
   }
@@ -307,7 +487,7 @@ footer .logo{
   }
 
   .card-title{
-    font-size: 28px;
+    font-size: 16px;
   }
 
   .cards {
@@ -322,19 +502,27 @@ footer .logo{
 }
 
 @media (min-width: 961px)  {
-
+  .card-title{
+    font-size: 28px;
+  }
 }
 
 @media (min-width: 992px) {
-
+  .card-title{
+    font-size: 22px;
+  }
 }
 
 @media (min-width:1025px) {
-
+  .card-title{
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1200px) {
-
+  .card-title{
+    font-size: 28px;
+  }
 }
 
 @media (min-width: 1440px) {

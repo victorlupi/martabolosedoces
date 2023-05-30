@@ -83,6 +83,12 @@
       "image": "assets/images/categories/doces.webp",
       "link": "/novidades",
       "description": "novidades"
+    },
+    {
+      "title": "Mais vendidos",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/novidades",
+      "description": "mais-vendidos"
     }
   ]
 }
