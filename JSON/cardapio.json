@@ -77,6 +77,12 @@
       "image": "assets/images/categories/doces.webp",
       "link": "/doces",
       "description": "docesEspeciais"
+    },
+    {
+      "title": "Novidades",
+      "image": "assets/images/categories/doces.webp",
+      "link": "/novidades",
+      "description": "novidades"
     }
   ]
 }

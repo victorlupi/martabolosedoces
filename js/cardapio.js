@@ -9,6 +9,7 @@ fetch('JSON/cardapio.json')
     const salgadosEspeciais = document.getElementById('salgados-especiais');
     const docesSimples = document.getElementById('doces-simples');
     const docesEspeciais = document.getElementById('doces-especiais');
+    const novidades = document.getElementById('novidades');
     const items = data.items;
 
     items.forEach(item => {
@@ -71,6 +72,8 @@ fetch('JSON/cardapio.json')
         docesSimples.appendChild(itemDiv);
       } else if (item.description === 'docesEspeciais') {
         docesEspeciais.appendChild(itemDiv);
+      } else if (item.description === 'novidades') {
+        novidades.appendChild(itemDiv);
       }
     });
 
