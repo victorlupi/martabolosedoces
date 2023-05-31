@@ -82,7 +82,7 @@
       "description": "bolosChocolate"
     },
     {
-      "title": "Prestígio 02",
+      "title": "Prestígio 2",
       "image": "assets/images/categories/bolo/bolos de chocolate/Prestígio02.jpeg",
       "description": "bolosChocolate"
     },
@@ -142,7 +142,7 @@
       "description": "bolosEspeciais"
     },
     {
-      "title": "Desenho Pepa Pig",
+      "title": "Desenho Peppa Pig",
       "image": "assets/images/categories/bolo/bolos especiais/Desenho Pepa Pig.jpeg",
       "description": "bolosEspeciais"
     },
@@ -294,7 +294,7 @@
     },
     {
       "vendidos": "mais-vendidos",
-      "title": "Negresgo",
+      "title": "Negresco",
       "image": "assets/images/categories/bolo/bolos de chocolate/Negresgo.jpg",
       "description": "mais-vendidos"
     },
