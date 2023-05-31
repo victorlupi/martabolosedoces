@@ -117,7 +117,7 @@
       "description": "bolosEspeciais"
     },
     {
-      "title": "Aniversário.jpeg",
+      "title": "Aniversário",
       "image": "assets/images/categories/bolo/bolos especiais/Aniversário.jpeg",
       "description": "bolosEspeciais"
     },
@@ -129,11 +129,6 @@
     {
       "title": "Boteco",
       "image": "assets/images/categories/bolo/bolos especiais/Boteco.jpeg",
-      "description": "bolosEspeciais"
-    },
-    {
-      "title": "Cerveja",
-      "image": "assets/images/categories/bolo/bolos especiais/Cerveja 2.jpeg",
       "description": "bolosEspeciais"
     },
     {
@@ -232,7 +227,7 @@
       "description": "docesSimples"
     },
     {
-      "title": "Brigadeiros.jpeg",
+      "title": "Brigadeiros",
       "image": "assets/images/categories/doce/simples/Brigadeiros.jpeg",
       "description": "docesSimples"
     },
