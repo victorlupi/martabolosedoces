@@ -21,8 +21,6 @@ fetch('JSON/cardapio.json')
       const cardDiv = document.createElement('div');
       cardDiv.classList.add('card', 'text-bg-dark');
       
-      const link = document.createElement('a');
-      link.href = item.link;
       
       const image = document.createElement('img');
       image.src = item.image;
@@ -39,6 +37,9 @@ fetch('JSON/cardapio.json')
       
       const whatsappLink = 'https://api.whatsapp.com/send/?phone=5517991937801&text=Queria saber mais: ' + encodeURIComponent(item.title);
       item.link = 'https://api.whatsapp.com/send/?phone=5517991937801&text=Queria saber mais: ' + encodeURIComponent(item.title);
+      
+      const link = document.createElement('a');
+      link.href = item.link;
 
       const description = document.createElement('p');
 
@@ -79,7 +80,7 @@ fetch('JSON/cardapio.json')
         novidades.appendChild(itemDiv);
       }
     });
-
+ 
     // Efeito parallax
     var parallaxContainer = document.querySelector('.parallax-container');
 
